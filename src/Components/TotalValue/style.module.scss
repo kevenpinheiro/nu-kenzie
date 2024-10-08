@@ -1,0 +1,36 @@
+.totalCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 80vw;
+  max-width: 400px;
+
+  height: 96px;
+
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 1rem;
+
+  background-color: var(--color-gray-1);
+
+  border: 2px solid var(--color-gray-2);
+  border-radius: 8px;
+
+  span {
+    color: var(--color-primary);
+  }
+
+  @media (min-width: 700px) {
+    width: 355px;
+  }
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  gap: 0.5rem;
+}
